@@ -3,27 +3,27 @@ import java.util.Map;
 
 class Solution {
     public int countTriplets(int[] arr) {
-        Map<Integer, List<Integer>> cache = new HashMap<>();
-        List<Integer> initValue = new ArrayList<>();
-        initValue.add(0);
-        cache.put(arr[0], initValue);
-        int ans = 0;
-        int xor = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            xor = xor ^ arr[i];
-            if (xor == 0) {
-                ans += i;
-            }
-            
-            List<Integer> values = cache.getOrDefault(xor, new ArrayList<>());
-            for(Integer value : values) {
-                if(i > value +1) {
-                    ans += i - value -1;
-                }
-            }
-            values.add(i);
-            cache.put(xor, values);
+        int[] prefixArr = new int[arr.length + 1];
+        prefixArr[0] = 0;
+        System.arraycopy(arr, 0, prefixArr, 1, arr.length);
+
+        // calculate prefixArr
+        for (int i = 1; i < prefixArr.length; i++) {
+            prefixArr[i] ^= prefixArr[i - 1];
         }
-        return ans;
+
+        Map<Integer, Integer> countMap = new HashMap<>();
+        Map<Integer, Integer> sumIdxMap = new HashMap<>();
+        int ret = 0;
+
+        for (int i = 0; i < prefixArr.length; i++) {
+            int prevCnt = countMap.getOrDefault(prefixArr[i], 0);
+            int prevSumIdx = sumIdxMap.getOrDefault(prefixArr[i], 0);
+            ret += prevCnt * (i - 1) - prevSumIdx;
+            countMap.put(prefixArr[i], ++prevCnt);
+            sumIdxMap.put(prefixArr[i], prevSumIdx + i);
+        }
+        return ret;
+
     }
 }
