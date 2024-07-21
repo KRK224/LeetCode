@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1803-average-waiting-time](https://github.com/KRK224/LeetCode/tree/master/1803-average-waiting-time) |
 ## Simulation
 |  |
@@ -23,4 +24,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/KRK224/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+## Greedy
+|  |
+| ------- |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+## Matrix
+|  |
+| ------- |
+| [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 <!---LeetCode Topics End-->
