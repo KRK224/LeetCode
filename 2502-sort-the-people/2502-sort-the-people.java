@@ -7,14 +7,13 @@ class Solution {
             map.put(heights[i], names[i]);
         }
 
-        List<Integer> hList = new ArrayList<>(Arrays.stream(heights).boxed().toList());
-        Collections.sort(hList, (h1, h2) -> h2 - h1);
-        List<String> nameList = new ArrayList<>();
-        
-        for(Integer h: hList) {
-            nameList.add(map.get(h));
+        Arrays.sort(heights);
+        String[] sortedNames = new String[l];
+                
+        for(int i =0; i<l; i++) {
+            sortedNames[l-i-1] = map.get(heights[i]);
         }
-        return nameList.toArray(new String[0]);
+        return sortedNames;
 
         
     }
