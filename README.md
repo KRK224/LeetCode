@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1803-average-waiting-time](https://github.com/KRK224/LeetCode/tree/master/1803-average-waiting-time) |
+| [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
 ## Simulation
 |  |
 | ------- |
@@ -32,4 +33,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+## Hash Table
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
+## String
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
+## Sorting
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
 <!---LeetCode Topics End-->
