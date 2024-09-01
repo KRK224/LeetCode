@@ -6,7 +6,9 @@ class Solution {
             return new int[0][0];
         
         for(int i = 0; i < m; i++) {
-            System.arraycopy(original, i*n, ans[i], 0, n);
+            // Arrays.copyOfRange 는 idx로 범위를 설정하는데, 마지막 idx는 포함하지 않음.
+            ans[i] = Arrays.copyOfRange(original, i*n, i*n+n);
+            // System.arraycopy(original, i*n, ans[i], 0, n);
             // for (int j = 0; j< n; j++) {
             //     int idx = i * n + j;
             //     ans[i][j] = original[idx];
