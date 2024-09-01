@@ -10,11 +10,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/KRK224/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/KRK224/LeetCode/tree/master/1803-average-waiting-time) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/KRK224/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
 ## Simulation
 |  |
 | ------- |
 | [1803-average-waiting-time](https://github.com/KRK224/LeetCode/tree/master/1803-average-waiting-time) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/KRK224/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Tree
 |  |
 | ------- |
@@ -35,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2132-convert-1d-array-into-2d-array](https://github.com/KRK224/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 ## Hash Table
 |  |
 | ------- |
