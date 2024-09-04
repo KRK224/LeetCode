@@ -72,12 +72,12 @@ class Solution {
                         
                 });
             } else {
-                yParallels.stream().forEach(py -> System.out.print(py+","));
-                System.out.println();
+                // yParallels.stream().forEach(py -> System.out.print(py+","));
+                // System.out.println();
                 yParallels.stream().filter(py -> py <= ty && py > cy).forEach(py -> {
-                    System.out.println("filter obstacle y: " + py);
+                    // System.out.println("filter obstacle y: " + py);
                     if (py <= ty){
-                        System.out.println("Blocked!!");
+                        // System.out.println("Blocked!!");
                         ty = py - 1;
                     }
                         
@@ -87,29 +87,29 @@ class Solution {
             // x축에 평행하게 움직인다.
             tx = steps * dx + cx;
             // x축과 평행한 장애물들 모음
-            System.out.println("tx = " + tx + ", steps*dx = " + steps*dx);
+            // System.out.println("tx = " + tx + ", steps*dx = " + steps*dx);
             List<Integer> xParallels = xParallelObjects.get(cy);
             if (xParallels == null) {
-                System.out.println("xParallels is empty!");
+                // System.out.println("xParallels is empty!");
             } else if (dx < 0) {
-                xParallels.stream().forEach(px -> System.out.print(px));
-                System.out.println();
+                // xParallels.stream().forEach(px -> System.out.print(px));
+                // System.out.println();
                 // tx 보정
                 xParallels.stream().filter(px -> px >= tx && px < cx).forEach(px -> {
-                    System.out.println("filter obstacle x: " + px);
+                    // System.out.println("filter obstacle x: " + px);
                     if (px >= tx) {
-                        System.out.println("Blocked!!");
+                        // System.out.println("Blocked!!");
                         tx = px + 1;
                     }
                         
                 });
             } else {
-                xParallels.stream().forEach(px -> System.out.print(px+","));
-                System.out.println();
+                // xParallels.stream().forEach(px -> System.out.print(px+","));
+                // System.out.println();
                 xParallels.stream().filter(px -> px <= tx && px > cx).forEach(px -> {
-                    System.out.println("filter obstacle x: " + px);
+                    // System.out.println("filter obstacle x: " + px);
                     if (px <= tx){
-                        System.out.println("Blocked!!");
+                        // System.out.println("Blocked!!");
                         tx = px - 1;
                     }
                         
