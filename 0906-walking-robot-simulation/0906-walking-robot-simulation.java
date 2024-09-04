@@ -25,8 +25,8 @@ class Solution {
 
     public int getDirectionAndMove(int command) {
         if (command == -1) {
-            System.out.println("Turn Right");
-            System.out.println("********");
+            // System.out.println("Turn Right");
+            // System.out.println("********");
             if (dx == 0) {
                 dx = dy == 1 ? 1 : -1;
                 dy = 0;
@@ -36,8 +36,8 @@ class Solution {
             }
 
         } else if (command == -2) {
-            System.out.println("Turn Left");
-            System.out.println("********");
+            // System.out.println("Turn Left");
+            // System.out.println("********");
             if (dx == 0) {
                 dx = dy == 1 ? -1 : 1;
                 dy = 0;
@@ -119,7 +119,7 @@ class Solution {
         }
         cx = tx;
         cy = ty;
-        System.out.println("after:: cx = " + cx + ", cy = " + cy);
-        System.out.println("====================");
+        // System.out.println("after:: cx = " + cx + ", cy = " + cy);
+        // System.out.println("====================");
     }
 }
