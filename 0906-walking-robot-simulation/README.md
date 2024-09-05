@@ -78,7 +78,7 @@ The furthest point the robot ever gets from the origin is (0, 6), which squared 
 <hr>
 <h4>해결 과정</h4>
 <ul>
-<li>처음 문제를 접했을 때 떠오른 생각은 각 장애물의 위치를 각각 x,y에 정사형하자는 생각.</li>
+<li>처음 문제를 접했을 때 떠오른 생각은 각 장애물의 위치를 각각 x,y에 정사영하자는 생각.</li>
 <li>로봇은 x,y 둘 중 한 축은 고정하고 다른 한 축으로 이동할 수 있기 때문에 떠올린 생각.</li>
 <li>그래서 현재 움직이는 방향을 결정하고 최종 목적지까지 가는 도중에 장애물이 있는지 확인하는 Map 구조 사용</li>
 </ul>
