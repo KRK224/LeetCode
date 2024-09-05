@@ -1,4 +1,7 @@
-<h2><a href="https://leetcode.com/problems/walking-robot-simulation">906. Walking Robot Simulation</a></h2><h3>Medium</h3><hr><p>A robot on an infinite XY-plane starts at point <code>(0, 0)</code> facing north. The robot can receive a sequence of these three possible types of <code>commands</code>:</p>
+<h2><a href="https://leetcode.com/problems/walking-robot-simulation">906. Walking Robot
+Simulation</a></h2><h3>Medium</h3><hr><p>A robot on an infinite XY-plane starts at point <code>(0,
+0)</code> facing north. The robot can receive a sequence of these three possible types of <code>
+commands</code>:</p>
 
 <ul>
 	<li><code>-2</code>: Turn left <code>90</code> degrees.</li>
@@ -69,4 +72,33 @@ The furthest point the robot ever gets from the origin is (0, 6), which squared 
 	<li><code>0 &lt;= obstacles.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>-3 * 10<sup>4</sup> &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 3 * 10<sup>4</sup></code></li>
 	<li>The answer is guaranteed to be less than <code>2<sup>31</sup></code>.</li>
+</ul>
+
+<h3>Note</h3>
+<hr>
+<h4>해결 과정</h4>
+<ul>
+<li>처음 문제를 접했을 때 떠오른 생각은 각 장애물의 위치를 각각 x,y에 정사형하자는 생각.</li>
+<li>로봇은 x,y 둘 중 한 축은 고정하고 다른 한 축으로 이동할 수 있기 때문에 떠올린 생각.</li>
+<li>그래서 현재 움직이는 방향을 결정하고 최종 목적지까지 가는 도중에 장애물이 있는지 확인하는 Map 구조 사용</li>
+</ul>
+
+<h4>문제점</h4>
+<ul>
+<li>디버깅에 오랜 시간을 소요했는데, 그 이유는 임계값(목적지와 장애물이 일치하는 경우)를 조건에 고려하지 않았기 때문...</li>
+</ul>
+
+<h4>개선할 점</h4>
+<ul>
+    <li>방향 설정 int(0~3)로 저장하고 이동값을 2차원 배열로 지정하는 방식은 자주 쓰일 것 같다.</li>
+    <li>그리고 우회전, 좌회전을 현재 방향 값에 (+1 or +3) % 4 하는 것도 기억할 것</li>
+</ul>
+
+<h4>알게 된 점</h4>
+<ul>
+<li>풀이에서는 로봇의 이동을 한칸씩 수행하고 수행 전 장애물의 위치인지 HashSet을 통해 알아본다.</li>
+<li>이 방법을 사용하기 위해 Hash함수를 만드는데 x1 + HASH_CONSTANT * y 이고, HASH_CONSTANT가 x, y의 범위를 넘어선 <strong>소수 라는 점</strong></li>
+<li>그런데 굳이 소수일 필요가 있나? x,y의 범위의 2배로 설정하면(+- 3*10^4 => 60002) 절대 겹칠일 이 없을 텐데?</li>
+<li> x1 + HC * y1 = x2 + HC*y2 (충돌 상황)이 성립하는 경우를 증명하면 (x1-x2) = HC * (y2 - y1) 인데 x1-x2의 최대 값은 60000이고, HC가 60002이면 y2와 y1이 1차이가 나도 다르다..</li>
+<li>아무튼 해시 함수를 이용하여 고유값을 계산해 내는 것이 인상 깊었다</li>
 </ul>
