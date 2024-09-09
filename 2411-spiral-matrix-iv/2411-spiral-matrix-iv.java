@@ -1,62 +1,36 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode() {}
- * ListNode(int val) { this.val = val; }
- * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
-    int[][] directions = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
-    int currentDir = 0;
-    int[] currentIdx = { 0, 0 };
-    int tempX = 0, tempY =0;
 
     public int[][] spiralMatrix(int m, int n, ListNode head) {
-        int[][] answer = new int[m][n];
-        // init Array
-        for (int[] rows : answer) {
-            Arrays.fill(rows, -1);
+        // Store the east, south, west, north movements in a matrix.
+        int i = 0, j = 0, cur_d = 0, movement[][] = {
+            { 0, 1 },
+            { 1, 0 },
+            { 0, -1 },
+            { -1, 0 },
+        };
+        int[][] res = new int[m][n];
+        for (int[] row : res) {
+            Arrays.fill(row, -1);
         }
-        
 
         while (head != null) {
-            // put into currentVal
-            answer[currentIdx[0]][currentIdx[1]] = head.val;
+            res[i][j] = head.val;
+            int newi = i + movement[cur_d][0], newj = j + movement[cur_d][1];
+
+            // If we bump into an edge or an already filled cell, change the
+            // direction.
+            if (
+                Math.min(newi, newj) < 0 ||
+                newi >= m ||
+                newj >= n ||
+                res[newi][newj] != -1
+            ) cur_d = (cur_d + 1) % 4;
+            i += movement[cur_d][0];
+            j += movement[cur_d][1];
+
             head = head.next;
-            if (currentDir == 0) { // right                
-                tempX = directions[currentDir][1] + currentIdx[1];
-                if(tempX == n || answer[currentIdx[0]][tempX] != -1) {
-                    // turn clockWise
-                    currentDir = (currentDir +1) % 4;
-                }
-            } else if (currentDir == 1) { // down
-                tempY = directions[currentDir][0] + currentIdx[0];
-                if(tempY == m || answer[tempY][currentIdx[1]] != -1) {
-                    currentDir = (currentDir +1) %4;
-                }
-            } else if (currentDir == 2) { // left
-                tempX = directions[currentDir][1] + currentIdx[1];
-                if(tempX <0 || answer[currentIdx[0]][tempX] != -1) {
-                    currentDir = (currentDir + 1) %4;
-                }
-
-            } else if (currentDir == 3) { // up
-                tempY = directions[currentDir][0] + currentIdx[0];
-                if(tempY < 0 || answer[tempY][currentIdx[1]] != -1) {
-                    currentDir = (currentDir + 1) %4;
-                }
-            }
-            calcNextIndex();
         }
-        return answer;
-    }
 
-    public void calcNextIndex() {
-        currentIdx[0] = currentIdx[0] + directions[currentDir][0];
-        currentIdx[1] = currentIdx[1] + directions[currentDir][1];
+        return res;
     }
-
 }
