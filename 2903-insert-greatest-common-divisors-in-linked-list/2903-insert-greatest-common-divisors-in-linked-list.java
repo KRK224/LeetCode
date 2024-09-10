@@ -19,11 +19,12 @@ class Solution {
                 break;
             ListNode gcd = new ListNode(getGCD(head.val, head.next.val));
             c_ln.next = gcd;
+            // gcd.next = head.next
+            // will loop forever, cause c_ln.next sets head.next
             gcd.next = new ListNode(head.next.val);
             head = head.next;
             c_ln = gcd.next;
         }
-
         return ln;
     }
 
