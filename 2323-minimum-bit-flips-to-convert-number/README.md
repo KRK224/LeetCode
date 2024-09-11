@@ -36,3 +36,27 @@ It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 
 <ul>
 	<li><code>0 &lt;= start, goal &lt;= 10<sup>9</sup></code></li>
 </ul>
+
+<h3>Note</h3>
+<hr>
+
+<h4>해결 과정</h4>
+
+<ul>
+<li>두 수의 bit를 비교할 때, 결국 나누기 2해서 나머지가 가장 하위 비트</li>
+<li>공통된 범위에 대해서 비교를 한 후, 나머지 초과 범위에서는 1인지만 파악하면 된다.</li>
+<li>계속 나누기 2를 한 나머지를 비교하는데, 초과 범위에서는 어차피 나머지 하나가 0이기 때문에 1과 달라서 비교 로직 그대로 사용 가능</li>
+</ul> 
+
+<h4>문제점</h4>
+<ul>
+</ul>
+
+<h4>개선할 점</h4>
+<ul>
+</ul>
+
+<h4>알게 된 점</h4>
+<ul>
+<li>비트 연산에 쫄지 말자..!!</li>
+</ul>
