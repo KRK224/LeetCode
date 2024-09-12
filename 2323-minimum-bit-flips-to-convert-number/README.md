@@ -58,5 +58,7 @@ It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 
 
 <h4>알게 된 점</h4>
 <ul>
-<li>비트 연산에 쫄지 말자..!!</li>
+<li>최하위 비트를 계산하기 위해서 & 1 연산하는 점</li>
+<li>브라이언 커니핸 알고리즘..! 2진수에 들어있는 비트 수를 세기 위해서 n-1한 것과 n을 & 연산</li>
+<li>이렇게 하면 가장 최하위 1비트부터 0으로 치환된다..!</li>
 </ul>
