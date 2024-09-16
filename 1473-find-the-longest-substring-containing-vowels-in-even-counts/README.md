@@ -32,3 +32,31 @@
 	<li><code>1 &lt;= s.length &lt;= 5 x 10^5</code></li>
 	<li><code>s</code>&nbsp;contains only lowercase English letters.</li>
 </ul>
+
+<h3>Note</h3>
+<hr>
+
+<h4>해결 과정</h4>
+
+<ul>
+<li>실패...</li>
+</ul> 
+
+<h4>문제점</h4>
+<ul>
+<li>다음에 나왔을 때 풀 수 있을까..??</li>
+</ul>
+
+<h4>개선할 점</h4>
+<ul>
+</ul>
+
+<h4>알게 된 점</h4>
+<ul>
+<li>각 모음이 몇 번 나왔는지는 중요하지 않다. 오직 짝수인지가 중요</li>
+<li>짝수인지 홀수인지 여부를 XOR 연산으로 처리한 점</li>
+<li>그런데 따져야하는 모음의 수가 5개인데 어떻게 처리하지..?? 가 제일 어려웠다.</li>
+<li>따져야하는 모음수만큼 bit처리, 여기서는 2^5비트로 관리하고 xor 결과가 동일한 경우가 다시 등장하면 짝수번을 만족함</li>
+<li>즉 변화가 있다가 다시 돌아갔다는 건 변화를 준 비트가 짝수번 나왔다는 의미, 0이 나오면 처음부터 짝수고, 특정 상태(2^5)가 중복으로 나왔을 때를 계산</li>
+<img src="image2.drawio.png" alt="image2.drawio.png" width="100%" height="100%">
+</ul>
