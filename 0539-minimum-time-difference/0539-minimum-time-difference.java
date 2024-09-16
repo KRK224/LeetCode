@@ -5,7 +5,7 @@ class Solution {
         int[] minArr = new int[s];
 
         for(int i =0; i< s; i++) {
-            minArr[i] = Integer.parseInt(timePoints.get(i).substring(0,2)) * 60 + Integer.parseInt(timePoints.get(i).substring(3));
+            minArr[i] = calcMin(timePoints.get(i));
         }
 
         Arrays.sort(minArr);
@@ -17,5 +17,12 @@ class Solution {
         answer = Math.min(answer, 24*60 - minArr[s-1] + minArr[0]);
         
         return answer;
+    }
+
+    public int calcMin(String time) {
+        char[] hh_mm = time.toCharArray();
+        int hh = hh_mm[0] * 10 + hh_mm[1];
+        int mm = hh_mm[3] * 10 + hh_mm[4];
+        return hh * 60 + mm;
     }
 }
