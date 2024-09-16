@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/0070-climbing-stairs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0383-ransom-note" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0412-fizz-buzz" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0876-middle-of-the-linked-list" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0906-walking-robot-simulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0948-sort-an-array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1342-number-of-steps-to-reduce-a-number-to-zero" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1435-xor-queries-of-a-subarray" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1442-count-triplets-that-can-form-two-arrays-of-equal-xor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1473-find-the-longest-substring-containing-vowels-in-even-counts" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1653-number-of-good-leaf-nodes-pairs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1672-richest-customer-wealth" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1711-find-valid-matrix-given-row-and-column-sums" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1741-sort-array-by-increasing-frequency" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1786-count-the-number-of-consistent-strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1803-average-waiting-time" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2006-find-the-student-that-will-replace-the-chalk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2132-convert-1d-array-into-2d-array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2155-find-missing-observations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2323-minimum-bit-flips-to-convert-number" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2411-spiral-matrix-iv" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2502-sort-the-people" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2903-insert-greatest-common-divisors-in-linked-list" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
