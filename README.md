@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0386-lexicographical-numbers](https://github.com/KRK224/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/KRK224/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Binary Tree
 |  |
@@ -163,4 +164,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/KRK224/LeetCode/tree/master/0214-shortest-palindrome) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/KRK224/LeetCode/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
