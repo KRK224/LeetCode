@@ -26,10 +26,9 @@ class Solution {
         Map<Integer, Integer> hm = new HashMap<>();
 
         for (int i = 0; i < nums.length; ++i) {
-            Integer idx = hm.get(target-nums[i]);
-            if(idx != null) {
+            if(hm.containsKey(target-nums[i])) {
                 answer[0] = i;
-                answer[1] = idx;
+                answer[1] = hm.get(target-nums[i]);
                 break;
             }
             hm.put(nums[i], i);
