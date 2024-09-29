@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/KRK224/LeetCode/tree/master/0001-two-sum) |
 | [0088-merge-sorted-array](https://github.com/KRK224/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0179-largest-number](https://github.com/KRK224/LeetCode/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/KRK224/LeetCode/tree/master/0539-minimum-time-difference) |
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/KRK224/LeetCode/tree/master/0001-two-sum) |
 | [0906-walking-robot-simulation](https://github.com/KRK224/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/KRK224/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/KRK224/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
