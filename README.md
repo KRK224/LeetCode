@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/KRK224/LeetCode/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/KRK224/LeetCode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/KRK224/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/KRK224/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -185,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/KRK224/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/KRK224/LeetCode/tree/master/0125-valid-palindrome) |
 ## Design
 |  |
 | ------- |
