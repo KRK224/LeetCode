@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0859-design-circular-deque](https://github.com/KRK224/LeetCode/tree/master/0859-design-circular-deque) |
 | [0906-walking-robot-simulation](https://github.com/KRK224/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0948-sort-an-array](https://github.com/KRK224/LeetCode/tree/master/0948-sort-an-array) |
+| [1256-rank-transform-of-an-array](https://github.com/KRK224/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1435-xor-queries-of-a-subarray](https://github.com/KRK224/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/KRK224/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/KRK224/LeetCode/tree/master/0001-two-sum) |
 | [0906-walking-robot-simulation](https://github.com/KRK224/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/KRK224/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1256-rank-transform-of-an-array](https://github.com/KRK224/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/KRK224/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/KRK224/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/KRK224/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -86,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/KRK224/LeetCode/tree/master/0179-largest-number) |
 | [0539-minimum-time-difference](https://github.com/KRK224/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0948-sort-an-array](https://github.com/KRK224/LeetCode/tree/master/0948-sort-an-array) |
+| [1256-rank-transform-of-an-array](https://github.com/KRK224/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/KRK224/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
 ## Divide and Conquer
