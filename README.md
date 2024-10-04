@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2155-find-missing-observations](https://github.com/KRK224/LeetCode/tree/master/2155-find-missing-observations) |
 | [2411-spiral-matrix-iv](https://github.com/KRK224/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/KRK224/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Simulation
 |  |
 | ------- |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/KRK224/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/KRK224/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/KRK224/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## String
 |  |
 | ------- |
@@ -98,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1256-rank-transform-of-an-array](https://github.com/KRK224/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/KRK224/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/KRK224/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -195,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/KRK224/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/KRK224/LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/KRK224/LeetCode/tree/master/0344-reverse-string) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/KRK224/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Design
 |  |
 | ------- |
