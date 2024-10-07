@@ -1,6 +1,7 @@
 class Solution {
     
     public int minLength(String s) {
+        // do not use Stack, use Deque <- ArrayDeque;
         Deque<Character> stack = new ArrayDeque<>();
 
         // Iterate over each character in the input string
