@@ -1,11 +1,27 @@
 class Solution {
+
+
     public int minLength(String s) {
-        String ans = s;
-        do {
-            s = remove(s);
-        } while(!s.equals(remove(s)));
-        return s.length();    
+        // Continue processing while "AB" or "CD" substrings exist
+        while (s.contains("AB") || s.contains("CD")) {
+            if (s.contains("AB")) {
+                // Remove all occurrences of "AB"
+                s = s.replace("AB", "");
+            } else if (s.contains("CD")) {
+                // Remove all occurrences of "CD"
+                s = s.replace("CD", "");
+            }
+        }
+
+        return s.length();
     }
+    // public int minLength(String s) {
+    //     String ans = s;
+    //     do {
+    //         s = remove(s);
+    //     } while(!s.equals(remove(s)));
+    //     return s.length();    
+    // }
 
     public String remove(String s) {
         int size = s.length();
