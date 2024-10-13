@@ -8,6 +8,8 @@ class Solution {
         if(letter.equals(reverse))
             return true;
         return false;
+
+        // pointer 풀이
         // int f = 0, e = s.length()-1;
         // while (f < e) {
         //     while(!Character.isLetterOrDigit(s.charAt(f))) {
