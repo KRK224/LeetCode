@@ -2,6 +2,7 @@ class Solution {
     public boolean isPalindrome(String s) {
         // replaceAll doesn't change origin!!!
         String letter = s.replaceAll("[^A-Za-z0-9]", "").toLowerCase();
+        // \\w : 알파벳 + 숫자 + _ 까지 포함
         // String letter = s.replaceAll("\\W", "").toLowerCase();
         String reverse = new StringBuilder(letter).reverse().toString().toLowerCase();
         if(letter.equals(reverse))
