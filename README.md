@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/KRK224/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0049-group-anagrams](https://github.com/KRK224/LeetCode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/KRK224/LeetCode/tree/master/0125-valid-palindrome) |
 | [0179-largest-number](https://github.com/KRK224/LeetCode/tree/master/0179-largest-number) |
@@ -182,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/KRK224/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/KRK224/LeetCode/tree/master/0053-maximum-subarray) |
 | [0241-different-ways-to-add-parentheses](https://github.com/KRK224/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 ## Recursion
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/KRK224/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0088-merge-sorted-array](https://github.com/KRK224/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/KRK224/LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/KRK224/LeetCode/tree/master/0344-reverse-string) |
