@@ -1,7 +1,10 @@
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         String answer = "";
-        Set<String> bans = new HashSet<>(Arrays.asList(banned));
+        Set<String> bans = new HashSet<>();
+        for(String ban : banned) {
+            bans.add(ban);
+        }
         String r = paragraph.replaceAll("[^A-Za-z ]", " ").toLowerCase();
         String[] words = r.split("\\s+");
         Map<String, Integer> map = new HashMap<>();
