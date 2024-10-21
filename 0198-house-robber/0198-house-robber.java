@@ -3,6 +3,7 @@ class Solution {
     public static int[] moneys;
     
     public int rob(int[] nums) {
+        // static 변수는 매번 초기화 해줄것..
         dp = new HashMap<>();
         moneys = nums;
         return dp(nums.length-1);                
