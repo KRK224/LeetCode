@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/KRK224/LeetCode/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/KRK224/LeetCode/tree/master/0198-house-robber) |
 | [0539-minimum-time-difference](https://github.com/KRK224/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0747-min-cost-climbing-stairs](https://github.com/KRK224/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0837-most-common-word](https://github.com/KRK224/LeetCode/tree/master/0837-most-common-word) |
 | [0859-design-circular-deque](https://github.com/KRK224/LeetCode/tree/master/0859-design-circular-deque) |
 | [0906-walking-robot-simulation](https://github.com/KRK224/LeetCode/tree/master/0906-walking-robot-simulation) |
@@ -193,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/KRK224/LeetCode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/KRK224/LeetCode/tree/master/0198-house-robber) |
 | [0241-different-ways-to-add-parentheses](https://github.com/KRK224/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [0747-min-cost-climbing-stairs](https://github.com/KRK224/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 ## Recursion
 |  |
 | ------- |
