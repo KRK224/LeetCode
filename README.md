@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/KRK224/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/KRK224/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/KRK224/LeetCode/tree/master/1803-average-waiting-time) |
+| [1896-maximum-score-from-performing-multiplication-operations](https://github.com/KRK224/LeetCode/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/KRK224/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/KRK224/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/KRK224/LeetCode/tree/master/2155-find-missing-observations) |
@@ -200,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0740-delete-and-earn](https://github.com/KRK224/LeetCode/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/KRK224/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/KRK224/LeetCode/tree/master/1236-n-th-tribonacci-number) |
+| [1896-maximum-score-from-performing-multiplication-operations](https://github.com/KRK224/LeetCode/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 ## Recursion
 |  |
 | ------- |
