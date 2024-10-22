@@ -14,6 +14,7 @@ class Solution {
             Arrays.fill(row, -1);
         }
 
+        // top-down
         return dp(s1-1,s2-1);
         
     }
