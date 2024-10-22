@@ -1,5 +1,5 @@
 class Solution {
-    // solution 시간 비교
+    // solution 시간 비교 => 똑같네ㅎㅎ
 private int[][] memo;
   private String text1;
   private String text2;
