@@ -1,6 +1,17 @@
 class Solution {
     // solution 시간 비교 => 똑같네ㅎㅎ
     // bottom-up 구현이 시간 단축을 하는데.. 그게 좀 어렵네
+    /**
+    solution의 경우 0부터 시작해서 base case가 length
+    이 경우에는 length 외의 범위에 대한 테이블 추가가 편함
+
+    나는 base case가 0이기 때문에, -1인 경우에 대한 테이블 처리가 어렵다..
+
+    결론적으로, bottom-up을 고려하기 위해서는 base case가 끝인 경우를 고려하는 것이 좋다.
+    방향성을 고려하면 현재 dp의 개념이 달라짐 => 근데 둘 다 가능한데 이 대칭성을 생각하기 어려운듯..
+    solution은 현재 i부터의 끝까지인 substring으로 만들 수 있는 최대 common sequence,
+    나는 0부터 현재 i까지의 최대 common subsequence.
+     */
   private int[][] memo;
   private String text1;
   private String text2;
