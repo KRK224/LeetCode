@@ -1,6 +1,7 @@
 class Solution {
     // solution 시간 비교 => 똑같네ㅎㅎ
-private int[][] memo;
+    // bottom-up 구현이 시간 단축을 하는데.. 그게 좀 어렵네
+  private int[][] memo;
   private String text1;
   private String text2;
     
