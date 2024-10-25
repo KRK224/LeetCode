@@ -9,10 +9,10 @@ class Solution {
         if(this.l <this.d)
             return -1;
         dp = new int[l][d+1];
-        
+                
         // 초기화
         for(int[] row : dp) {
-            Arrays.fill(row, Integer.MAX_VALUE);
+            Arrays.fill(row, -1);
         }
         
         return dp(0, 1);
@@ -24,7 +24,7 @@ class Solution {
         if(curD > d)
             return 0;
         
-        if(dp[idx][curD] == Integer.MAX_VALUE) {
+        if(dp[idx][curD] == -1) {
             int max = Integer.MIN_VALUE;
             int min = Integer.MAX_VALUE;
         
