@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/KRK224/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/KRK224/LeetCode/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/KRK224/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0139-word-break](https://github.com/KRK224/LeetCode/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/KRK224/LeetCode/tree/master/0179-largest-number) |
 | [0198-house-robber](https://github.com/KRK224/LeetCode/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/KRK224/LeetCode/tree/master/0221-maximal-square) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/KRK224/LeetCode/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/KRK224/LeetCode/tree/master/0049-group-anagrams) |
+| [0139-word-break](https://github.com/KRK224/LeetCode/tree/master/0139-word-break) |
 | [0740-delete-and-earn](https://github.com/KRK224/LeetCode/tree/master/0740-delete-and-earn) |
 | [0837-most-common-word](https://github.com/KRK224/LeetCode/tree/master/0837-most-common-word) |
 | [0906-walking-robot-simulation](https://github.com/KRK224/LeetCode/tree/master/0906-walking-robot-simulation) |
@@ -99,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/KRK224/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0049-group-anagrams](https://github.com/KRK224/LeetCode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/KRK224/LeetCode/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/KRK224/LeetCode/tree/master/0139-word-break) |
 | [0179-largest-number](https://github.com/KRK224/LeetCode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/KRK224/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/KRK224/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -201,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/KRK224/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/KRK224/LeetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/KRK224/LeetCode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/KRK224/LeetCode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/KRK224/LeetCode/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/KRK224/LeetCode/tree/master/0221-maximal-square) |
 | [0241-different-ways-to-add-parentheses](https://github.com/KRK224/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
@@ -219,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/KRK224/LeetCode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/KRK224/LeetCode/tree/master/0139-word-break) |
 | [0241-different-ways-to-add-parentheses](https://github.com/KRK224/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1236-n-th-tribonacci-number](https://github.com/KRK224/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 ## Rolling Hash
@@ -236,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/KRK224/LeetCode/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/KRK224/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/KRK224/LeetCode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 ## Two Pointers
