@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/KRK224/LeetCode/tree/master/0948-sort-an-array) |
 | [0974-reorder-data-in-log-files](https://github.com/KRK224/LeetCode/tree/master/0974-reorder-data-in-log-files) |
 | [1256-rank-transform-of-an-array](https://github.com/KRK224/LeetCode/tree/master/1256-rank-transform-of-an-array) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/KRK224/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1435-xor-queries-of-a-subarray](https://github.com/KRK224/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/KRK224/LeetCode/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/KRK224/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0221-maximal-square](https://github.com/KRK224/LeetCode/tree/master/0221-maximal-square) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/KRK224/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/KRK224/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/KRK224/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2411-spiral-matrix-iv](https://github.com/KRK224/LeetCode/tree/master/2411-spiral-matrix-iv) |
@@ -216,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/KRK224/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/KRK224/LeetCode/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/KRK224/LeetCode/tree/master/1250-longest-common-subsequence) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/KRK224/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1457-minimum-difficulty-of-a-job-schedule](https://github.com/KRK224/LeetCode/tree/master/1457-minimum-difficulty-of-a-job-schedule) |
 | [1896-maximum-score-from-performing-multiplication-operations](https://github.com/KRK224/LeetCode/tree/master/1896-maximum-score-from-performing-multiplication-operations) |
 ## Recursion
