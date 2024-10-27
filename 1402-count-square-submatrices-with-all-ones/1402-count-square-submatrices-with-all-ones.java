@@ -1,5 +1,6 @@
 class Solution {
     int[][] dp;
+    int[][] budp; // bottom up dp
     int[][] matrix;
     int m, n;
 
@@ -8,22 +9,38 @@ class Solution {
         m = matrix.length;
         n = matrix[0].length;
         dp = new int[m][n];
+        budp = new int[m + 1][n + 1];
 
         for (int[] row : dp)
             Arrays.fill(row, -1);
 
-        dp(0, 0);
-
         int ans = 0;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                ans += dp[i][j];
+        // ** top-down with recursion.
+        // dp(0, 0);
+
+        // for (int i = 0; i < m; i++) {
+        // for (int j = 0; j < n; j++) {
+        // ans += dp[i][j];
+        // }
+        // }
+
+        /**
+         * tabulation : bottom-up;
+         */
+        for (int i = m - 1; i >= 0; i--) {
+            for (int j = n - 1; j >= 0; j--) {
+                if (matrix[i][j] == 0)
+                    budp[i][j] = 0;
+                else {
+                    budp[i][j] = Math.min(budp[i + 1][j], Math.min(budp[i + 1][j + 1], budp[i][j + 1])) + 1;
+                }
+                ans += budp[i][j];
             }
+            
         }
-
         return ans;
-
     }
+
 
     int dp(int i, int j) {
         // base case;
