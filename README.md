@@ -112,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0241-different-ways-to-add-parentheses](https://github.com/KRK224/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0344-reverse-string](https://github.com/KRK224/LeetCode/tree/master/0344-reverse-string) |
 | [0539-minimum-time-difference](https://github.com/KRK224/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0812-rotate-string](https://github.com/KRK224/LeetCode/tree/master/0812-rotate-string) |
 | [0837-most-common-word](https://github.com/KRK224/LeetCode/tree/master/0837-most-common-word) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/KRK224/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KRK224/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/KRK224/LeetCode/tree/master/0214-shortest-palindrome) |
+| [0812-rotate-string](https://github.com/KRK224/LeetCode/tree/master/0812-rotate-string) |
 ## Hash Function
 |  |
 | ------- |
