@@ -61,7 +61,7 @@ public class NestedIterator implements Iterator<Integer> {
                 return true;
         }
 
-        if (curr + 1 == size && nestedIterator == null)
+        if (curr + 1 == size)
             return false;        
         return true;
     }
