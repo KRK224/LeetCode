@@ -60,10 +60,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/KRK224/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/KRK224/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/KRK224/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0386-lexicographical-numbers](https://github.com/KRK224/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/KRK224/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Binary Tree
@@ -281,14 +283,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/KRK224/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0859-design-circular-deque](https://github.com/KRK224/LeetCode/tree/master/0859-design-circular-deque) |
 ## Queue
 |  |
 | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/KRK224/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0859-design-circular-deque](https://github.com/KRK224/LeetCode/tree/master/0859-design-circular-deque) |
 ## Stack
 |  |
 | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/KRK224/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KRK224/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/KRK224/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/KRK224/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -301,4 +306,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1755-defuse-the-bomb](https://github.com/KRK224/LeetCode/tree/master/1755-defuse-the-bomb) |
+## Iterator
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/KRK224/LeetCode/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
