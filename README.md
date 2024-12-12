@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2411-spiral-matrix-iv](https://github.com/KRK224/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2502-sort-the-people](https://github.com/KRK224/LeetCode/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/KRK224/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/KRK224/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Simulation
 |  |
 | ------- |
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2132-convert-1d-array-into-2d-array](https://github.com/KRK224/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/KRK224/LeetCode/tree/master/2155-find-missing-observations) |
 | [2411-spiral-matrix-iv](https://github.com/KRK224/LeetCode/tree/master/2411-spiral-matrix-iv) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/KRK224/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/KRK224/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Tree
 |  |
@@ -158,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0948-sort-an-array](https://github.com/KRK224/LeetCode/tree/master/0948-sort-an-array) |
 | [1304-longest-happy-string](https://github.com/KRK224/LeetCode/tree/master/1304-longest-happy-string) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/KRK224/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Merge Sort
 |  |
 | ------- |
